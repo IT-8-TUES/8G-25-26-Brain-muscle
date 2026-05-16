@@ -1,0 +1,124 @@
+.body-main{
+    padding: 0;
+    margin: 0;
+	background-image: url("images/plants_background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: Arial , sans-serif;
+}
+.body-contact{
+    padding: 0;
+    margin: 0;
+	font-family: Arial , sans-serif;
+	background-color: #f0f0f0;
+}
+.navbar {
+	padding: 10px 0px 10px 0px;
+	display: flex;
+	align-items: center;
+  width: 100%;
+  color: #f2f2f2;
+  text-decoration: none;
+  /*font-size: 28px;*/
+  background-color: black;
+}
+.brand-text {
+	margin-right: auto;
+	white-space: nowrap;
+    color: #ffffff;
+	padding-left: 30px;
+}
+.navbar a {
+	display: inline-block;
+	margin-left: 20px;
+	white-space: nowrap;
+    color: #ffffff;
+    text-decoration: none;
+}
+.navbar a.active {
+  color: red;
+}
+.navbar a:hover {
+    color: #5786BC;
+}
+
+.headers-container{
+	position: absolute;
+	top: 150px;
+	right: 90px;
+	width: 280px;
+	padding: 30px 30px 30px 30px;
+	z-index: 1;
+	height: 290px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+	font-weight: bold;
+	/*font-size: 24px;*/
+}
+.name{
+	font-size: 26px;
+	font-weight: bold;
+	color: forestgreen;
+}
+.title{
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	margin-top: 15px;
+}
+.sub-text{
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	margin-top: 60px;
+}
+
+.contact{
+	top: 150px;
+	width: 100%;
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+	color: black;
+	font-weight: bold;
+	font-size: 24px;
+}
+.contact table{
+    width: 100%;
+	border-collapse: collapse;
+}
+.contact td{
+    padding: 8px;
+	font-family: Arial , sans-serif;
+	text-align: right;
+}
+.contact input, .contact textarea{
+    width: 100%;
+	padding: 10px;
+	border: 1px solid #bbb;
+}
+.contact label{
+	font-size: 14px;
+	font-weight: bold;
+}
+.data{
+	margin-left: auto;
+	margin-right: 100px;
+	margin-top: 80px;
+	width: 650px;
+}
+.data_c{
+	margin-left: 100px;
+	margin-right: auto;
+	margin-top: -190px;
+	font-size: 21px;
+	width: 450px;
+}
+.color{
+	color: forestgreen; 
+
+}
